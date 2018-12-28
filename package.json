@@ -1,7 +1,7 @@
 {
   "name": "clicky",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "homepage": "https://hegratrix.github.io/Clicky/",
   "dependencies": {
     "@material-ui/core": "^3.7.0",
