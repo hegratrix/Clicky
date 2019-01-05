@@ -39,9 +39,9 @@ class Navbar extends Component {
             {
               this.props.isSignedIn ? (
                 <>
-            <Link style={styles.link} to={'./'}>Home</Link>
-            <Link style={styles.link} to={'./game'}>Game</Link>
-            <Link style={styles.link} to={'./leaderboard'}>LeaderBoard</Link>
+            <Link style={styles.link} to={'/'}>Home</Link>
+            <Link style={styles.link} to={'/game'}>Game</Link>
+            <Link style={styles.link} to={'/leaderboard'}>LeaderBoard</Link>
             <Typography variant="h6" style={styles.grow}>
               Flamingo Clicky Game
             </Typography>
