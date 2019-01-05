@@ -4,15 +4,15 @@ self.__precacheManifest = [
     "url": "/Clicky/static/js/runtime~main.11525fd0.js"
   },
   {
-    "revision": "99d81e8e407639dddd91",
-    "url": "/Clicky/static/js/main.99d81e8e.chunk.js"
+    "revision": "7696a55f9b9977a3a354",
+    "url": "/Clicky/static/js/main.7696a55f.chunk.js"
   },
   {
     "revision": "346c24f384fa02c5a32f",
     "url": "/Clicky/static/js/1.346c24f3.chunk.js"
   },
   {
-    "revision": "9271ceac314ce7a6ebec296288c7eb14",
+    "revision": "935552d6de1dc7345bace81cbc899536",
     "url": "/Clicky/index.html"
   }
 ];
