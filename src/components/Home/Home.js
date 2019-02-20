@@ -23,7 +23,7 @@ const styles = theme => ({
     color: 'black'
   },
   picture: {
-      height: '53vh',
+      height: '65vh',
       width: '100%',
       objectFit: 'cover'
   }

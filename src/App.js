@@ -55,12 +55,12 @@ class App extends Component {
     render () {
         return (
             <>
-            <Router basename={'Clicky'}>
+            <Router basename={'/Clicky'}>
                 <div>
                     <Navbar uiConfig={uiConfig} isSignedIn={this.state.isSignedIn} userName={this.state.name} />
                     <Route exact path='/' component={Home} />
-                    <Route path={`${process.env.PUBLIC_URL}/game`} component={() => <Game uid={this.state.uid} />} />
-                    <Route path={`${process.env.PUBLIC_URL}/leaderboard`} component={LeaderBoard}/>
+                    <Route path='/game' component={() => <Game uid={this.state.uid} />} />
+                    <Route path='/leaderboard' component={LeaderBoard}/>
                 </div>
             </Router>
             </>
